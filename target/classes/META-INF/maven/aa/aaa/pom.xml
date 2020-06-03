@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>aa</groupId>
+  <artifactId>aaa</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>bbb</name>
+  <description>aaa</description>
+  <build/>
+  
+  <dependencies>
+	
+    	 <dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>itext-asian</artifactId>
+        <version>5.2.0</version>
+    </dependency>
+    <!--pdf相关操作-->
+    <dependency>
+        <groupId>com.itextpdf</groupId>
+        <artifactId>itextpdf</artifactId>
+        <version>5.4.3</version>
+     </dependency>
+   
+  <dependency>
+   <groupId>net.coobird</groupId>
+   <artifactId>thumbnailator</artifactId>
+   <version>0.4.8</version>
+</dependency>
+    </dependencies>
+  
+  
+</project>
